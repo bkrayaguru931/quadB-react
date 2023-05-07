@@ -1,58 +1,53 @@
 .search-screen {
-    padding: 20px;
-    background: linear-gradient(
-        to top,
-        rgba(0, 0, 0, 0) 85%,
-        rgba(8, 1, 31, 1) 100%
-      ),
-      url("https://wallpapercave.com/wp/wp8203724.jpg");
-   
-    background-repeat: no-repeat;
-  background-size: cover;
-  }
-  
-  .search-screen h1 {
-    text-align: center;
-    color: #FC7643;
-  }
-  
-  .search-screen ul {
-    
-    list-style: none;
-    padding: 10px;
-   
+  padding: 20px;
+  background: linear-gradient(
+      to top,
+      rgba(0, 0, 0, 0) 85%,
+      rgba(8, 1, 31, 1) 100%
+    ),
+    url("https://wallpapercave.com/wp/wp8203724.jpg");
 
-  }
-  
-  .search-screen li {
-     
-    margin: auto;
-    margin-bottom: 20px;
-    border: 1px solid #443C68;
-    border-radius: 20px;
-    padding: 10px;
-    width: 500px;
-    text-align: center;
-    color: #FC7643;
-   background-color: #841E62;
-  }
-  
-  .search-screen li h3 {
-    text-align: center;
-  }
-  
-  .search-screen li p {
-    margin-bottom: 0;
-    align-items: center;
-  }
-  
-  .search-screen li button {
-    background-color: #9B461F;
-    color: #FFFBD2;
-    border: none;
-    padding: 5px 10px;
-    cursor: pointer;
-    border-radius: 5px;
-    margin-top: 10px;
-  }
-  
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.search-screen h1 {
+  text-align: center;
+  color: #fc7643;
+}
+
+.search-screen ul {
+  list-style: none;
+  padding: 10px;
+}
+
+.search-screen li {
+  margin: auto;
+  margin-bottom: 20px;
+  border: 1px solid #443c68;
+  border-radius: 20px;
+  padding: 10px;
+  width: 50%;
+  text-align: center;
+  color: #fc7643;
+  background-color: #841e62;
+}
+
+.search-screen li h3 {
+  text-align: center;
+}
+
+.search-screen li p {
+  margin-bottom: 0;
+  align-items: center;
+}
+
+.search-screen li button {
+  background-color: #9b461f;
+  color: #fffbd2;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-top: 10px;
+}
